@@ -1,0 +1,15 @@
+/home/skylab-145/Desktop/tallerCarros/Taller/bin/Debug/net7.0/Taller
+/home/skylab-145/Desktop/tallerCarros/Taller/bin/Debug/net7.0/Taller.deps.json
+/home/skylab-145/Desktop/tallerCarros/Taller/bin/Debug/net7.0/Taller.runtimeconfig.json
+/home/skylab-145/Desktop/tallerCarros/Taller/bin/Debug/net7.0/Taller.dll
+/home/skylab-145/Desktop/tallerCarros/Taller/bin/Debug/net7.0/Taller.pdb
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.csproj.AssemblyReference.cache
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.GeneratedMSBuildEditorConfig.editorconfig
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.AssemblyInfoInputs.cache
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.AssemblyInfo.cs
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.csproj.CoreCompileInputs.cache
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.dll
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/refint/Taller.dll
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.pdb
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/Taller.genruntimeconfig.cache
+/home/skylab-145/Desktop/tallerCarros/Taller/obj/Debug/net7.0/ref/Taller.dll
