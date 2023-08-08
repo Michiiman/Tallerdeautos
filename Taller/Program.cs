@@ -6,17 +6,17 @@ internal class Program
     
     private static void Main(string[] args)
     {
-        TallerAutomotriz  taller= new TallerAutomotriz();
-        Menu menu = new Menu();
-        int opcion=0;
+        TallerAutomotriz  taller= new();
+        Menu menu = new();
+        int opcion;
         do {
             menu.menu();
             Console.Write("Seleccione el modulo a ingresar: ");
             opcion=int.Parse(Console.ReadLine());
             switch(opcion) {
                 case 1:
-                    MenuClientes menuClint=new MenuClientes();
-                    int opcionClientes=0;
+                    MenuClientes menuClint=new();
+                    int opcionClientes;
                     do {
                         menuClint.Menu();
                         Console.Write("Seleccione la opcion que necesita: ");

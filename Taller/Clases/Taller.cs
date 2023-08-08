@@ -26,7 +26,17 @@ public class TallerAutomotriz{
     }
 
     public void MostrarClientes(){
-            Console.WriteLine(Clientes[0]);
+            Console.Clear();
+            Console.WriteLine("----------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("*********************************************Clientes*****************************************************");
+            Console.WriteLine("----------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("|   Cedula   |     Nombres   |   Apellidos   | Telefono |           Email            |      Registro     |");
+            foreach(var cliente in Clientes)
+            {
+                Console.WriteLine(String.Format("|{0,-12}|{1,-15}|{2,-15}|{3,-10}|{4,-28}|{5,-19}|", cliente.Cc,cliente.Nombre,cliente.Apellido,cliente.Telefono,cliente.Email,cliente.FechaRegistro));
+                Console.WriteLine("----------------------------------------------------------------------------------------------------------");           
+            }
+                Console.ReadLine();
     }
 
 }
