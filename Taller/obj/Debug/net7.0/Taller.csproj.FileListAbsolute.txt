@@ -43,3 +43,18 @@ C:/Users/Camilo/Desktop/C#/Taller/Tallerdeautos/Taller/obj/Debug/net7.0/ref/Tall
 /home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/obj/Debug/net7.0/Taller.pdb
 /home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/obj/Debug/net7.0/Taller.genruntimeconfig.cache
 /home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/obj/Debug/net7.0/ref/Taller.dll
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\bin\Debug\net7.0\Taller.exe
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\bin\Debug\net7.0\Taller.deps.json
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\bin\Debug\net7.0\Taller.runtimeconfig.json
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\bin\Debug\net7.0\Taller.dll
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\bin\Debug\net7.0\Taller.pdb
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.csproj.AssemblyReference.cache
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.AssemblyInfoInputs.cache
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.AssemblyInfo.cs
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.csproj.CoreCompileInputs.cache
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.dll
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\refint\Taller.dll
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.pdb
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\Taller.genruntimeconfig.cache
+C:\Users\Camilo\Desktop\C#\Taller\Tallerdeautos\Taller\obj\Debug\net7.0\ref\Taller.dll

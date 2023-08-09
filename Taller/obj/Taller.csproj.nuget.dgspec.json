@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/Taller.csproj": {}
+    "C:\\Users\\Camilo\\Desktop\\C#\\Taller\\Tallerdeautos\\Taller\\Taller.csproj": {}
   },
   "projects": {
-    "/home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/Taller.csproj": {
+    "C:\\Users\\Camilo\\Desktop\\C#\\Taller\\Tallerdeautos\\Taller\\Taller.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/Taller.csproj",
+        "projectUniqueName": "C:\\Users\\Camilo\\Desktop\\C#\\Taller\\Tallerdeautos\\Taller\\Taller.csproj",
         "projectName": "Taller",
-        "projectPath": "/home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/Taller.csproj",
-        "packagesPath": "/home/arteN01-053/.nuget/packages/",
-        "outputPath": "/home/arteN01-053/Documents/Codigos Campus/C#/Taller autos/Tallerdeautos/Taller/obj/",
+        "projectPath": "C:\\Users\\Camilo\\Desktop\\C#\\Taller\\Tallerdeautos\\Taller\\Taller.csproj",
+        "packagesPath": "C:\\Users\\Camilo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Camilo\\Desktop\\C#\\Taller\\Tallerdeautos\\Taller\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/arteN01-053/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\Camilo\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -53,7 +53,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.109/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

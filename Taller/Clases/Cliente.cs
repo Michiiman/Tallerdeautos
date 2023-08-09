@@ -4,15 +4,13 @@ public class Cliente : Persona {
 
     public string FechaRegistro { get; set; }
 
-    public List<Vehiculos> Vehiculos {get;set;}
+    public List<Vehiculo> Vehiculo { get; set; }
     
-    public Cliente(int Cc,string Nombre,string Apellido,long Telefono,string Email, string FechaRegistro): base (Cc,Nombre,Apellido,Telefono, Email){
+    public Cliente(int Cc,string Nombre,string Apellido,long Telefono,string Email, string FechaRegistro,List<Vehiculo> vehiculo): base (Cc,Nombre,Apellido,Telefono, Email){
         this.FechaRegistro=FechaRegistro;
-        this.Vehiculos = new List<Vehiculos>();
+        this.Vehiculo= vehiculo;
+        
     }
     public Cliente(){}
 
-    public AgregarVehiculo(){
-        
-    }
 }

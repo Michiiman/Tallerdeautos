@@ -1,6 +1,6 @@
 namespace Taller.Clases;
 
-public class Vehiculos{
+public class Vehiculo{
 
     public string  Placa {get;set;}
     public int Modelo{get;set;}
@@ -8,7 +8,7 @@ public class Vehiculos{
     public string Color {get;set;}
     public int Km {get;set;}
 
-    public Vehiculos(string placa,int modelo,string marca,string color,int km){
+    public Vehiculo(string placa,int modelo,string marca,string color,int km){
         this.Placa=placa;
         this.Modelo=modelo;
         this.Marca=marca;
@@ -16,6 +16,6 @@ public class Vehiculos{
         this.Km=km;
     }
     
-
+    
 
 }
