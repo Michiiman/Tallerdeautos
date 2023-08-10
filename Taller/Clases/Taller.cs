@@ -7,7 +7,9 @@ public class TallerAutomotriz{
 
     private List<Vehiculo> Vehiculos =new();
 
+    private List<Empleado> Empleados= new();
 
+ //Clientes
     public void AgregarCliente(){
         
         Console.WriteLine("Agregar Nuevo Cliente");
@@ -35,7 +37,23 @@ public class TallerAutomotriz{
         Clientes.Add(cliente);
     }
 
-public void AgregarVehiculo(){
+    public void MostrarClientes(){
+            Console.Clear();
+            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("*********************************************Clientes**********************************************************");
+            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("|   Cedula   |     Nombres   |   Apellidos   | Telefono |           Email            |         Registro       |");
+            foreach(var cliente in Clientes)
+            {
+                Console.WriteLine(String.Format("|{0,-12}|{1,-15}|{2,-15}|{3,-10}|{4,-28}|{5,-25}|", cliente.Cc,cliente.Nombre,cliente.Apellido,cliente.Telefono,cliente.Email,cliente.FechaRegistro));
+                Console.WriteLine("---------------------------------------------------------------------------------------------------------------");           
+            }
+                MostrarCarro();
+                Console.ReadLine();
+    }
+
+    //Vehiculos
+    public void AgregarVehiculo(){
 
         Console.WriteLine("-----Agregar Vehiculo-----");
         Console.Write("Ingrese la placa del carro: ");
@@ -52,23 +70,6 @@ public void AgregarVehiculo(){
         Vehiculo carro= new Vehiculo(placa,modelo,marca,color,km);
         Vehiculos.Add(carro);
     }
-    public void MostrarClientes(){
-            Console.Clear();
-            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
-            Console.WriteLine("*********************************************Clientes**********************************************************");
-            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
-            Console.WriteLine("|   Cedula   |     Nombres   |   Apellidos   | Telefono |           Email            |         Registro       |");
-            foreach(var cliente in Clientes)
-            {
-                Console.WriteLine(String.Format("|{0,-12}|{1,-15}|{2,-15}|{3,-10}|{4,-28}|{5,-25}|", cliente.Cc,cliente.Nombre,cliente.Apellido,cliente.Telefono,cliente.Email,cliente.FechaRegistro));
-                Console.WriteLine("---------------------------------------------------------------------------------------------------------------");           
-            }
-                MostrarCarro();
-                Console.ReadLine();
-    }
-
-
-
 
     public void MostrarCarro(){
 
@@ -81,5 +82,48 @@ public void AgregarVehiculo(){
         }
             //Console.ReadLine();
     }
+
+    // Empleados    
+    public void AgregarEmpleado(){
+        Console.WriteLine("Agregar Nuevo Empleado");
+
+        Console.Write("Ingrese la cedula del empleado: ");
+        int Cc=int.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese el nombre del empleado: ");
+        string Nombre=Console.ReadLine();
+
+        Console.Write("Ingrese el Apellido del empleado: ");
+        string Apellido=Console.ReadLine();
+
+        Console.Write("Ingrese el Telefono del empleado: ");
+        long Telefono=long.Parse(Console.ReadLine());
+
+        Console.Write("Ingrese el Email del empleado: ");
+        string Email=Console.ReadLine();
+
+        Console.WriteLine("Ingrese la especialidad del empleado: ");
+        string Especialidad=Console.ReadLine();
+
+        Empleado empleado= new Empleado(Cc,Nombre,Apellido,Telefono,Email,Especialidad);
+        Empleados.Add(empleado);
+    }
+
+    public void MostrarEmpleados(){
+        Console.Clear();
+            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("*******************************************Empleados***********************************************************");
+            Console.WriteLine("---------------------------------------------------------------------------------------------------------------");
+            Console.WriteLine("|   Cedula   |     Nombres   |   Apellidos   | Telefono |           Email            |      Especialidad      |");
+            foreach(var empleado in Empleados)
+            {
+                Console.WriteLine(String.Format("|{0,-12}|{1,-15}|{2,-15}|{3,-10}|{4,-28}|{5,-25}|", empleado.Cc,empleado.Nombre,empleado.Apellido,empleado.Telefono,empleado.Email,empleado.Especialidad));
+                Console.WriteLine("---------------------------------------------------------------------------------------------------------------");           
+            }
+                Console.ReadLine();
+    }
+
 }
 
+
+    
